@@ -7,7 +7,7 @@ class Calculation {
 
   String bmiresult() {
     result = (weight / ((height / 100) * (height / 100)));
-    return result.toString();
+    return result.toStringAsFixed(2);
   }
 
   String feedback() {
